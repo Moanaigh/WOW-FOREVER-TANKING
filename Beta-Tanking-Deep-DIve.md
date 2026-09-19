@@ -2064,7 +2064,9 @@ World of Warcraft Forever presents three distinct tanking philosophies, each via
 
 WoW Forever features all original professions with significant enhancements:
 
-**Primary Crafting Professions (Choose 1):**
+**Primary Professions (Choose 2 - One Crafting + One Gathering, OR Two Crafting, OR Two Gathering):**
+
+*Primary Crafting Professions:*
 - Alchemy
 - Blacksmithing
 - Enchanting
@@ -2073,15 +2075,17 @@ WoW Forever features all original professions with significant enhancements:
 - Leatherworking
 - Tailoring
 
-**Primary Gathering Professions (Choose 1):**
+*Primary Gathering Professions:*
 - Herbalism
 - Mining
 - Skinning
 
-**Secondary Professions (Learn All):**
+**Secondary Professions (Learn All 3 Simultaneously):**
 - Cooking
 - First Aid
 - Fishing
+
+⚠️ **CRITICAL CONSTRAINT:** Players can only select **TWO primary professions**. Secondary professions can all be learned alongside primary professions.
 
 **Key Features:**
 - Camping recipes provide profession-specific buffs (slightly weaker than class buffs)
@@ -2415,22 +2419,35 @@ These bonuses stack to make professions increasingly valuable throughout gamepla
 
 ---
 
-**Protection Paladin:** Alchemy + Enchanting
-- Reason: Potions + stat boosts maximize PvP survivability
-- Healing potions are not available to Paladins otherwise
+**Protection Paladin:** Enchanting + Alchemy
+- Reason: Enchanting optimises raid gear (PvE); Alchemy provides healing potions (PvP + raid support)
 - Enchants provide permanent defensive improvements
-- Rating: ★★★★★ (Optimal PvP combination)
+- Potions enable both raid survivability and PvP healing
+- Rating: ★★★★★ (Best hybrid choice)
+
+**Alternative Paladin:** Enchanting + Jewelcrafting (PvE-focused)
+- Reason: Maximum raid gear optimisation
+- Rating: ★★★★★ (Best for pure PvE raiding)
 
 **Feral Druid:** Alchemy + Herbalism (especially Tauren)
 - Reason: Self-sufficient potions + dual spec healing support
 - Tauren racial bonus doubles herb yields
 - Herbalism supports both bear tanking and restoration healing
+- Alchemy potions enable extended PvP fights
 - Rating: ★★★★★ (Best for druid versatility)
 
-**Protection Warrior:** Alchemy + Enchanting (instead of Blacksmithing for PvP)
-- Reason: Potions provide healing Warriors lack
-- Enchants maximize armour effectiveness
-- More useful for PvP than Blacksmithing
-- Rating: ★★★★★ (Optimal for PvP, though less synergistic than Blacksmithing)
+**Alternative Druid:** Enchanting + Herbalism (PvE-focused)
+- Reason: Enchanting optimises raid gear; Herbalism supports healing backup role
+- Rating: ★★★★★ (Best for pure PvE raiding)
+
+**Protection Warrior:** Enchanting + Alchemy
+- Reason: Enchanting optimises raid gear (PvE); Alchemy provides healing (PvP necessity)
+- Potions are Warriors' only healing source
+- Enchants maximise armour effectiveness
+- Rating: ★★★★★ (Best hybrid choice)
+
+**Alternative Warrior:** Enchanting + Blacksmithing (PvE-focused)
+- Reason: Blacksmithing crafts shields with highest block value (essential for threat)
+- Rating: ★★★★★ (Best for pure PvE raiding)
 
 ---
