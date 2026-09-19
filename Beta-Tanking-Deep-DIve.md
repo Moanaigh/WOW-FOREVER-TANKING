@@ -5,7 +5,7 @@
 
 ## Summary
 
-World of Warcraft Forever presents three primary tanking classes at launch: **Protection Warrior**, **Protection Paladin**, and **Feral Druid** (Bear form). This comprehensive analysis evaluates each specialisation's threat generation capabilities, aggro holding mechanics, and suitability for end-game raid tanking across three raid tiers: Barrow Deeps (10 players), Hyjal Summit (20 players), and Onyxia's Lair (40 players).
+World of Warcraft Forever presents three primary tanking classes at launch: **Protection Warrior**, **Protection Paladin**, and **Feral Druid** (Bear form). This comprehensive analysis based on currently available info from Blizzard, talent calculators, other online sources and experience tanking end game content in vinalla and classic evaluates each specialisation's threat generation capabilities, aggro holding mechanics, and suitability for end-game raid tanking across three raid tiers: Barrow Deeps (10 players), Hyjal Summit (20 players), and Onyxia's Lair (40 players).
 
 **Key Findings:**
 - **Protection Warrior** emerges as the superior threat generator with predictable, reliable shield-based mechanics
