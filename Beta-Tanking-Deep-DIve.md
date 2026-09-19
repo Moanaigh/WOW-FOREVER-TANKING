@@ -2388,7 +2388,32 @@ These bonuses stack to make professions increasingly valuable throughout gamepla
 
 ---
 
-### Final Profession Recommendation for Each Tanking Class:
+### Best Professions for PvE End-Game Raiding by Tanking Class
+
+#### Protection Paladin (Best for Raiding):
+**Optimal: Enchanting + Jewelcrafting**
+- Enchanting: ★★★★★ Permanent stat increases on raid gear; essential for threat optimisation
+- Jewelcrafting: ★★★★☆ Gem sockets stack stat benefits across raid pieces
+- Synergy: Maximum raid survivability and threat generation
+- PvE Rating: ★★★★★
+
+#### Feral Druid (Adequate for Raiding):
+**Optimal: Enchanting + Herbalism**
+- Enchanting: ★★★★★ Permanent stat increases for bear form gear
+- Herbalism: ★★★★☆ Supports both tanking and healing roles
+- Synergy: Flexible multi-role raiding capability
+- PvE Rating: ★★★★☆
+
+#### Protection Warrior (Strong for Raiding):
+**Optimal: Enchanting + Blacksmithing**
+- Enchanting: ★★★★★ Permanent stat increases essential for raids
+- Blacksmithing: ★★★★☆ Crafted shields with highest block value
+- Synergy: Threat generation maximised; shields critical for threat
+- PvE Rating: ★★★★★
+
+**Key Insight:** For PvE raiding, gear optimisation (Enchanting + Jewelcrafting/Blacksmithing) takes priority over consumables. For PvP, consumables (Alchemy + Herbalism) take priority for survival. Hybrid: Enchanting + Alchemy balances both.
+
+---
 
 **Protection Paladin:** Alchemy + Enchanting
 - Reason: Potions + stat boosts maximize PvP survivability
