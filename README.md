@@ -1,6 +1,6 @@
 # WoW Forever — Tanking Class Analysis
 
-> A comprehensive, source-checked analysis of the three tanking classes in **World of Warcraft Forever**: the **Protection Warrior**, **Protection Paladin**, and **Feral Druid (Bear)** — across threat generation, aggro holding, end‑game raiding, PvP, race choice, talent progression, and professions.
+> A comprehensive, source-checked analysis of the three tanking classes in **World of Warcraft Forever** based on currently available info from Blizzard, talent calculators, other online sources and experience tanking end game content in vinalla and classic: the **Protection Warrior**, **Protection Paladin**, and **Feral Druid (Bear)** — across threat generation, aggro holding, end‑game raiding, PvP, race choice, talent progression, and professions.
 
 📄 **Main document:** [`WoW_Forever_Tanking_Analysis_Report.md`](./WoW_Forever_Tanking_Analysis_Report.md)
 
