@@ -1679,6 +1679,16 @@ Balance Tree: 8 points
 
 ## Specialized Endgame Builds
 
+### ⚠️ CRITICAL SPEC CONSTRAINT FOR PvP
+
+**Specs CANNOT be changed during PvP encounters.** Once a match/arena begins, your specialisation is locked for the duration. This means:
+- Players must choose ONE spec for each PvP encounter (tank, healer, or DPS)
+- Dual-spec flexibility only applies between matches, not during combat
+- Choose your spec based on expected enemy composition before entering PvP
+- For tanking specs: you are committed to Protection/Feral Bear for the entire encounter
+
+This constraint significantly impacts PvP spec selection and strategy.
+
 ### Protection Warrior: Raid-Focused Build
 
 #### Build Name: "Threat Maximisation" (Barrow Deeps/Hyjal Summit)
@@ -2420,34 +2430,32 @@ These bonuses stack to make professions increasingly valuable throughout gamepla
 ---
 
 **Protection Paladin:** Enchanting + Alchemy
-- Reason: Enchanting optimises raid gear (PvE); Alchemy provides healing potions (PvP + raid support)
+- Reason: Enchanting optimises raid gear (PvE); Alchemy provides healing potions (essential for PvP tanking)
 - Enchants provide permanent defensive improvements
-- Potions enable both raid survivability and PvP healing
-- Rating: ★★★★★ (Best hybrid choice)
-
-**Alternative Paladin:** Enchanting + Jewelcrafting (PvE-focused)
-- Reason: Maximum raid gear optimisation
-- Rating: ★★★★★ (Best for pure PvE raiding)
+- Potions enable PvP survival when locked into Protection spec
+- **Note:** In PvP, you are LOCKED into Protection spec for the entire encounter (cannot switch to Retribution/Holy mid-fight)
+- Rating: ★★★★★ (Best hybrid choice for PvP tanking)
 
 **Feral Druid:** Alchemy + Herbalism (especially Tauren)
-- Reason: Self-sufficient potions + dual spec healing support
+- Reason: Self-sufficient potions for extended PvP fights in bear tank form
 - Tauren racial bonus doubles herb yields
-- Herbalism supports both bear tanking and restoration healing
-- Alchemy potions enable extended PvP fights
-- Rating: ★★★★★ (Best for druid versatility)
-
-**Alternative Druid:** Enchanting + Herbalism (PvE-focused)
-- Reason: Enchanting optimises raid gear; Herbalism supports healing backup role
-- Rating: ★★★★★ (Best for pure PvE raiding)
+- Alchemy healing is critical when locked into Feral tanking spec
+- **Note:** In PvP, you choose Feral Bear tanking for the entire match (cannot switch to Restoration healing mid-encounter)
+- Rating: ★★★★☆ (Strong for committed tank PvP, but less flexible than assumed)
 
 **Protection Warrior:** Enchanting + Alchemy
-- Reason: Enchanting optimises raid gear (PvE); Alchemy provides healing (PvP necessity)
-- Potions are Warriors' only healing source
-- Enchants maximise armour effectiveness
-- Rating: ★★★★★ (Best hybrid choice)
+- Reason: Enchanting optimises gear; Alchemy provides healing (only source available to Warriors)
+- Potions are Warriors' ONLY healing during PvP encounters
+- **Note:** Locked into Protection spec for entire PvP match (cannot switch to Arms/Fury for offensive play)
+- Rating: ★★★★☆ (Requires commitment to tank role throughout encounter)
 
-**Alternative Warrior:** Enchanting + Blacksmithing (PvE-focused)
-- Reason: Blacksmithing crafts shields with highest block value (essential for threat)
-- Rating: ★★★★★ (Best for pure PvE raiding)
+**⚠️ CRITICAL PvP CONSIDERATION:** Since specs are locked during PvP encounters, the recommended builds assume you are COMMITTING to tank specialisation for the entire match. You cannot switch to healing or DPS mid-encounter. This reduces flexibility significantly compared to dual-spec in dungeons/raids.
+
+**REVISED BEST CHOICE FOR PvP TANKING:** 
+Given the spec-lock constraint, **Protection Paladin remains the best choice** because:
+- Alchemy potions provide emergency healing when locked in Protection
+- Enchanting maximises defensive capabilities
+- You can commit to Protection spec for entire PvP match
+- Superior survivability compared to other tanks when forced to single-spec
 
 ---
