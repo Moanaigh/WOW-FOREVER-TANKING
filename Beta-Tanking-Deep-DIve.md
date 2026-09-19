@@ -3,7 +3,7 @@
 
 ---
 
-## Executive Summary
+## Summary
 
 World of Warcraft Forever presents three primary tanking classes at launch: **Protection Warrior**, **Protection Paladin**, and **Feral Druid** (Bear form). This comprehensive analysis evaluates each specialisation's threat generation capabilities, aggro holding mechanics, and suitability for end-game raid tanking across three raid tiers: Barrow Deeps (10 players), Hyjal Summit (20 players), and Onyxia's Lair (40 players).
 
@@ -604,6 +604,10 @@ Rage Income = (Dodge Chance × up to 5) + (Critical Strike Chance × Rage) + (10
 - Troll
 - Windshaper Skyborne (new race)
 
+> **Note on PvP race choices:** Because **threat is not a factor in PvP** (see "Threat Is Not a Factor" in the Specialised Endgame Builds section), the PvP race rationales below should be read as favouring **survivability, crowd-control resistance, mobility and utility** — not threat maintenance. Where a PvP entry mentions "maintaining threat", read it as "maintaining offensive pressure and control".
+
+> **Verification caveat:** Several racial ability details below (exact percentages, ability names) could **not be confirmed** against available WoW Forever sources and are reconstructed from franchise conventions. The existence of the Skyborne races is confirmed; their precise racials are not. Treat specific numbers as provisional until verified in-game.
+
 ---
 
 ### Protection Warrior: Best Races
@@ -663,7 +667,7 @@ Rage Income = (Dodge Chance × up to 5) + (Critical Strike Chance × Rage) + (10
 - **Application:** Enables solo tank scenarios against multiple enemies
 - **PvP Viability:** Good for world PvP; weaker in organised battlegrounds
 
-#### Leveling (Levels 1-60)
+#### Levelling (Levels 1-60)
 
 **Best Choice: Tauren**
 - **Endurance Racial:** 5% health makes early dungeons more survivable
@@ -734,7 +738,7 @@ Rage Income = (Dodge Chance × up to 5) + (Critical Strike Chance × Rage) + (10
 - **Application:** Moderate PvP capability
 - **PvP Viability:** Balanced offence and defence
 
-#### Leveling (Levels 1-60)
+#### Levelling (Levels 1-60)
 
 **Best Choice: Undead**
 - **Cannibalize:** Mana and health recovery between pulls means less downtime
@@ -763,7 +767,6 @@ Rage Income = (Dodge Chance × up to 5) + (Critical Strike Chance × Rage) + (10
 **Best Choice: Tauren**
 - **Endurance Racial:** Grants 5% total health and 1% hit rating
 - **War Stomp:** Stuns nearby enemies for 2 seconds, generating AoE threat
-- **Plainsrunning:** Rewarded movement helps positioning
 - **Synergy:** Extra health directly improves Bear form survivability; War Stomp enables add management
 - **Application:** Superior for threat generation and add management; best survivability
 - **Raid Viability:** Optimal for all raid tiers, particularly multi-add encounters
@@ -787,9 +790,8 @@ Rage Income = (Dodge Chance × up to 5) + (Critical Strike Chance × Rage) + (10
 #### PvP (World PvP & Battlegrounds)
 
 **Best Choice: Tauren**
-- **War Stomp:** Stuns enemies, creating breathing room for threat management
+- **War Stomp:** Stuns enemies, creating openings and breathing room
 - **Endurance:** 5% health provides superior survivability against burst damage
-- **Plainsrunning:** Movement speed assists kiting and positioning
 - **Synergy:** Crowd control + health pool enables soloing multiple opponents
 - **Application:** Best for sustained PvP combat; enables tank multiple enemies
 - **PvP Viability:** Exceptional for world PvP; good for battlegrounds
@@ -810,7 +812,7 @@ Rage Income = (Dodge Chance × up to 5) + (Critical Strike Chance × Rage) + (10
 - **Application:** Moderate PvP capability
 - **PvP Viability:** Niche; good for elemental-heavy opposition
 
-#### Leveling (Levels 1-60)
+#### Levelling (Levels 1-60)
 
 **Best Choice: Tauren**
 - **Endurance Racial:** 5% health makes early dungeons more survivable
@@ -834,7 +836,7 @@ Rage Income = (Dodge Chance × up to 5) + (Critical Strike Chance × Rage) + (10
 
 ### Comprehensive Race Ranking Matrix
 
-| Race | Warrior PvE | Warrior PvP | Paladin PvE | Paladin PvP | Druid PvE | Druid PvP | Leveling |
+| Race | Warrior PvE | Warrior PvP | Paladin PvE | Paladin PvP | Druid PvE | Druid PvP | Levelling |
 |---|---|---|---|---|---|---|---|
 | **Tauren** | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★★ | ★★★★★ | ★★★★★ |
 | **Dwarf** | ★★★★☆ | ★★★☆☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
@@ -909,29 +911,36 @@ Allocation remaining points (5-8 points) in Fury tree for:
 #### Recommended Talent Allocation Example
 
 ```
-Protection Tree: 38 points
+Protection Tree: 38 points (sums to 38)
 ├─ Defiance (1/1) — MANDATORY
 ├─ Bastion (3/3) — MANDATORY
 ├─ Master of Defence (3/3) — MANDATORY
 ├─ Shield Specialisation (3/3) — MANDATORY
+├─ Damage Reduction (3/3) — MANDATORY
 ├─ Shield Wall (1/1) — MANDATORY
 ├─ Revenge (3/3) — MANDATORY
-├─ Damage Reduction (3/3) — MANDATORY
-├─ Revenge Internals (2/2)
+├─ Toughness (3/3)
 ├─ Shield Slam Enhancement (3/3)
-├─ Defensive Stance Improvement (2/3)
-└─ Defensive Position (3/3)
+├─ Improved Shield Block (2/2)
+├─ Defensive Mastery (3/3)
+├─ Vitality (3/3)
+├─ Concussion Blow (1/1)
+├─ Focused Rage (3/3)
+└─ Improved Defensive Stance (3/3)
+   [1+3+3+3+3+1+3+3+3+2+3+3+1+3+3 = 38]
 
-Arms Tree: 10 points
+Arms Tree: 10 points (sums to 10)
 ├─ Last Stand (1/1) — MANDATORY
 ├─ Anticipation (2/2)
-├─ Overpower (2/3)
-├─ Thunderclap (1/1)
-└─ Protection Talents (2/2)
+├─ Deflection (3/3)
+├─ Improved Thunderclap (3/3)
+└─ Tactical Mastery (1/1)
+   [1+2+3+3+1 = 10]
 
-Fury Tree: 3 points
+Fury Tree: 3 points (sums to 3)
 ├─ Blood Craze (2/3)
 └─ Flurry (1/5)
+   [2+1 = 3]
 ```
 
 #### Threat Rotation with Optimal Build
@@ -969,7 +978,7 @@ Fury Tree: 3 points
 - Add Overpower talents
 - Maintain defensive cooldowns
 
-#### Leveling Talent Progression (Levels 1-60)
+#### Levelling Talent Progression (Levels 1-60)
 
 **⚠️ CRITICAL NOTE: Talent Points Become Available at Level 10**
 
@@ -1015,21 +1024,31 @@ Level  Points  Cumulative  Talent Placement
 ---
 
 **Level 21-35 (Mid-Game Tanking Specialisation)**
-- **Total Talent Points Available:** 34 points (cumulative: 34 total)
-- **Allocation Strategy:** Complete core abilities + add defensive cooldown
+- **Points gained this bracket:** 15 (one per level, 21→35)
+- **Cumulative by level 35:** 26 points (level − 9)
+- **Allocation Strategy:** Complete core Protection abilities + secondary threat
 
 ```
-Level  Points  Talent Placement
-────────────────────────────────────────
-21     21     Protection: Bastion (3/3) — COMPLETE
-23     23     Protection: Master of Defence (3/3) — COMPLETE
-25     25     Protection: Shield Specialisation (3/3) — COMPLETE
-27     27     Protection: Damage Reduction (3/3) — COMPLETE
-29     29     Protection: Shield Wall (1/1) — DEFENSIVE COOLDOWN
-31     31     Protection: Revenge (1/3)
-33     33     Protection: Revenge (2/3)
-35     35     Protection: Revenge (3/3) — COMPLETE
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+21     12            Protection: Bastion (3/3) — COMPLETE
+22     13            Protection: Master of Defence (3/3) — COMPLETE
+23     14            Protection: Shield Specialisation (3/3) — COMPLETE
+24     15            Protection: Damage Reduction (3/3) — COMPLETE
+25     16            Protection: Revenge (1/3)
+26     17            Protection: Revenge (2/3)
+27     18            Protection: Revenge (3/3) — COMPLETE
+28     19            Protection: Toughness (1/3)
+29     20            Protection: Toughness (2/3)
+30     21            Protection: Toughness (3/3) — COMPLETE
+31     22            Protection: Shield Slam Enhancement (1/3)
+32     23            Protection: Shield Slam Enhancement (2/3)
+33     24            Protection: Shield Slam Enhancement (3/3) — COMPLETE
+34     25            Protection: Improved Shield Block (1/2)
+35     26            Protection: Improved Shield Block (2/2) — COMPLETE
 ```
+
+**Running tree totals at level 35:** Protection 25 / Arms 1 / Fury 0 (= 26)
 
 **Why This Progression:**
 - Complete all core Protection talents before moving to secondary trees
@@ -1042,21 +1061,31 @@ Level  Points  Talent Placement
 ---
 
 **Level 36-50 (Advanced Threat Generation)**
-- **Total Talent Points Available:** 49 points (cumulative: 49 total)
-- **Allocation Strategy:** Add threat enhancement + preparation for endgame
+- **Points gained this bracket:** 15 (one per level, 36→50)
+- **Cumulative by level 50:** 41 points (level − 9)
+- **Allocation Strategy:** Finish Protection to 38, begin Arms mitigation
 
 ```
-Level  Points  Talent Placement
-────────────────────────────────────────
-36     36     Arms: Anticipation (1/2)
-38     38     Arms: Anticipation (2/2) — DODGE INCREASE
-40     40     Protection: Additional Threat (1/2)
-42     42     Protection: Additional Threat (2/2)
-44     44     Arms: Overpower (1/3)
-46     46     Arms: Overpower (2/3)
-48     48     Arms: Overpower (3/3) — COMPLETE
-50     50     Arms: Thunderclap (1/1) — AoE THREAT
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+36     27            Protection: Defensive Mastery (1/3)
+37     28            Protection: Defensive Mastery (2/3)
+38     29            Protection: Defensive Mastery (3/3) — COMPLETE
+39     30            Protection: Vitality (1/3)
+40     31            Protection: Vitality (2/3)
+41     32            Protection: Vitality (3/3) — COMPLETE
+42     33            Protection: Concussion Blow (1/1)
+43     34            Protection: Focused Rage (1/3)
+44     35            Protection: Focused Rage (2/3)
+45     36            Protection: Focused Rage (3/3) — COMPLETE
+46     37            Protection: Improved Defensive Stance (1/3)
+47     38            Protection: Improved Defensive Stance (2/3)
+48     39            Protection: Improved Defensive Stance (3/3) — COMPLETE (Protection now 38)
+49     40            Arms: Anticipation (1/2)
+50     41            Arms: Anticipation (2/2) — DODGE INCREASE
 ```
+
+**Running tree totals at level 50:** Protection 38 / Arms 3 / Fury 0 (= 41)
 
 **Why This Progression:**
 - Anticipation improves dodge rating (triggers Master of Defence)
@@ -1069,25 +1098,31 @@ Level  Points  Talent Placement
 
 ---
 
-**Level 51-59 (Endgame Specialisation)**
-- **Total Talent Points Available:** 58 points (cumulative: 58 total)
-- **Allocation Strategy:** Complete endgame build for raid tanking
+**Level 51-60 (Endgame Specialisation)**
+- **Points gained this bracket:** 10 (one per level, 51→60)
+- **Cumulative by level 60:** 51 points (the maximum)
+- **Allocation Strategy:** Finish Arms to 10, add Fury sustain
 
 ```
-Level  Points  Talent Placement
-────────────────────────────────────────
-51     51     Fury: Blood Craze (1/3)
-53     53     Fury: Blood Craze (2/3)
-55     55     Fury: Blood Craze (3/3) — PASSIVE HEALING
-57     57     Fury: Flurry (1/5) — ATTACK SPEED
-59     59     (Remaining Flexibility Point)
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+51     42            Arms: Deflection (1/3)
+52     43            Arms: Deflection (2/3)
+53     44            Arms: Deflection (3/3) — COMPLETE
+54     45            Arms: Improved Thunderclap (1/3)
+55     46            Arms: Improved Thunderclap (2/3)
+56     47            Arms: Improved Thunderclap (3/3) — AoE THREAT
+57     48            Arms: Tactical Mastery (1/1) — Arms now 10
+58     49            Fury: Blood Craze (1/3)
+59     50            Fury: Blood Craze (2/3) — PASSIVE HEALING
+60     51            Fury: Flurry (1/5) — ATTACK SPEED
 ```
 
 **Why This Progression:**
+- Deflection (parry) and Improved Thunderclap round out Arms mitigation and add threat
 - Blood Craze provides passive survivability between pulls
 - Flurry improves threat output through attack speed
-- Complete endgame build achieves 38/10/3 optimal allocation
-- Flexibility point for situational talents (Deflection, etc.)
+- Completes the endgame 38/10/3 allocation exactly (no points wasted)
 
 **Recommended Role:** Raid-ready Protection Warrior for Barrow Deeps, Hyjal Summit, Onyxia's Lair
 
@@ -1095,18 +1130,30 @@ Level  Points  Talent Placement
 
 ---
 
-### Protection Paladin: Leveling Talent Progression (Levels 1-60)
+### Protection Paladin: Levelling Talent Progression (Levels 1-60)
 
 #### Level 10-20 (Dungeon Preparation Phase)
-- **Total Talent Points Acquired by Level 20:** 11 points (1 per level from 10-20)  
-- **⚠️ CRITICAL:** No talent points available until level 10
+- **Points gained this bracket:** 11 (one per level, 10→20)
+- **Cumulative by level 20:** 11 points
+- **⚠️ CRITICAL:** No talent points available until level 10 (one point per level thereafter)
 
-**Allocation Strategy:** Core tanking mechanic + initial survivability
+**Allocation Strategy:** Core taunt mechanic + threat consistency
 
-**Level 10:** Righteous Fury (1/1) → Seal of Fury (1/1) — MANDATORY for tanking  
-**Level 11-14:** Holy Power (1-2/3), Illumination (1-2/2), Holy Shield (1/3)  
-**Level 15-18:** Swift Judgement (1-2/3), Holy Shield (2-3/3), Holy Power completion  
-**Level 19-20:** Improved Seal of Fury (1-2/2) for mana sustainability
+```
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+10     1             Protection: Righteous Fury (1/1) — MANDATORY aura
+11     2             Protection: Seal of Fury (1/1) — MANDATORY taunt seal
+12     3             Protection: Holy Shield (1/3)
+13     4             Protection: Holy Shield (2/3)
+14     5             Protection: Holy Shield (3/3) — COMPLETE
+15     6             Protection: Swift Judgement (1/3)
+16     7             Protection: Swift Judgement (2/3)
+17     8             Protection: Swift Judgement (3/3) — COMPLETE
+18     9             Protection: Improved Seal of Fury (1/2)
+19     10            Protection: Improved Seal of Fury (2/2) — MANA SUSTAIN
+20     11            Protection: Iron Creed (1/3)
+```
 
 **Why This Progression:**
 - Level 10 unlock enables Righteous Fury + Seal of Fury (mandatory for tanking)
@@ -1119,22 +1166,32 @@ Level  Points  Talent Placement
 
 ---
 
-#### Level 21-35 (Multi-Target Threat Specialisation)**
-- **Total Talent Points Available:** 34 points (cumulative: 34 total)
-- **Allocation Strategy:** Complete core tanking + add AoE threat
+#### Level 21-35 (Multi-Target Threat Specialisation)
+- **Points gained this bracket:** 15 (one per level, 21→35)
+- **Cumulative by level 35:** 26 points (level − 9)
+- **Allocation Strategy:** Complete Protection multi-target threat + mitigation
 
 ```
-Level  Points  Talent Placement
-────────────────────────────────────────
-21     21     Protection: Swift Judgement (2/3)
-23     23     Protection: Swift Judgement (3/3) — COMPLETE
-25     25     Protection: Holy Shield (3/3) — COMPLETE
-27     27     Protection: Improved Seal of Fury (2/2) — COMPLETE
-29     29     Protection: Iron Creed (1/3)
-31     31     Protection: Consecration Improvement (1/3)
-33     33     Protection: Consecration Improvement (2/3)
-35     35     Protection: Consecration Improvement (3/3) — COMPLETE
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+21     12            Protection: Iron Creed (2/3)
+22     13            Protection: Iron Creed (3/3) — COMPLETE
+23     14            Protection: Consecration Improvement (1/3)
+24     15            Protection: Consecration Improvement (2/3)
+25     16            Protection: Consecration Improvement (3/3) — COMPLETE
+26     17            Protection: Protection Aura Enhancement (1/2)
+27     18            Protection: Protection Aura Enhancement (2/2) — COMPLETE
+28     19            Protection: Blessed Assurance (1/2)
+29     20            Protection: Blessed Assurance (2/2) — COMPLETE
+30     21            Protection: Guardian's Favour (1/2)
+31     22            Protection: Guardian's Favour (2/2) — COMPLETE
+32     23            Protection: Toughness (1/1)
+33     24            Protection: Holy Shield Internals (1/2)
+34     25            Protection: Holy Shield Internals (2/2) — COMPLETE
+35     26            Protection: Redoubt (1/1)
 ```
+
+**Running tree totals at level 35:** Protection 26 / Holy 0 / Retribution 0 (= 26)
 
 **Why This Progression:**
 - Complete Swift Judgement for threat recovery reliability
@@ -1147,22 +1204,32 @@ Level  Points  Talent Placement
 
 ---
 
-#### Level 36-50 (Defensive Enhancement Phase)**
-- **Total Talent Points Available:** 49 points (cumulative: 49 total)
-- **Allocation Strategy:** Add defensive capabilities + raid preparation
+#### Level 36-50 (Defensive Enhancement Phase)
+- **Points gained this bracket:** 15 (one per level, 36→50)
+- **Cumulative by level 50:** 41 points (level − 9)
+- **Allocation Strategy:** Finish Protection to 32, build the Holy mana/threat tree
 
 ```
-Level  Points  Talent Placement
-────────────────────────────────────────
-36     36     Holy: Divine Favour (1/1) — EMERGENCY THREAT
-38     38     Protection: Iron Creed (2/3)
-40     40     Protection: Iron Creed (3/3) — COMPLETE
-42     42     Protection: Protection Aura Enhancement (1/2)
-44     44     Protection: Protection Aura Enhancement (2/2)
-46     46     Retribution: Deflection (1/2)
-48     48     Retribution: Deflection (2/2)
-50     50     Holy: Purification (1/2)
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+36     27            Protection: Improved Righteous Fury (1/3)
+37     28            Protection: Improved Righteous Fury (2/3)
+38     29            Protection: Improved Righteous Fury (3/3) — COMPLETE
+39     30            Protection: Ardent Defender (1/1) — DEFENSIVE COOLDOWN
+40     31            Protection: Sacred Duty (1/2)
+41     32            Protection: Sacred Duty (2/2) — COMPLETE (Protection now 32)
+42     33            Holy: Holy Power (1/3)
+43     34            Holy: Holy Power (2/3)
+44     35            Holy: Illumination (1/2)
+45     36            Holy: Illumination (2/2) — MANA RETURN
+46     37            Holy: Divine Favour (1/1) — EMERGENCY THREAT
+47     38            Holy: Purification (1/2)
+48     39            Holy: Purification (2/2) — DEBUFF REMOVAL
+49     40            Holy: Holy Concentration (1/2)
+50     41            Holy: Holy Concentration (2/2) — MANA REGEN
 ```
+
+**Running tree totals at level 50:** Protection 32 / Holy 9 / Retribution 0 (= 41)
 
 **Why This Progression:**
 - Divine Favour provides offensive cooldown option
@@ -1175,25 +1242,31 @@ Level  Points  Talent Placement
 
 ---
 
-#### Level 51-59 (Endgame Completion)**
-- **Total Talent Points Available:** 58 points (cumulative: 58 total)
-- **Allocation Strategy:** Complete endgame raid build
+#### Level 51-60 (Endgame Completion)
+- **Points gained this bracket:** 10 (one per level, 51→60)
+- **Cumulative by level 60:** 51 points (the maximum)
+- **Allocation Strategy:** Finish Holy to 12, spend Retribution to 7
 
 ```
-Level  Points  Talent Placement
-────────────────────────────────────────
-51     51     Holy: Purification (2/2) — COMPLETE
-53     53     Retribution: Conviction (1/3)
-55     55     Retribution: Conviction (2/3)
-57     57     Retribution: Conviction (3/3)
-59     59     Retribution: Seal of Command (1/1) — FLEXIBILITY
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+51     42            Holy: Holy Power (3/3) — COMPLETE
+52     43            Holy: Improved Concentration Aura (1/2)
+53     44            Holy: Improved Concentration Aura (2/2) — Holy now 12
+54     45            Retribution: Deflection (1/2)
+55     46            Retribution: Deflection (2/2) — PARRY
+56     47            Retribution: Conviction (1/3)
+57     48            Retribution: Conviction (2/3)
+58     49            Retribution: Conviction (3/3) — CRIT
+59     50            Retribution: Seal of Command (1/1) — FLEXIBILITY
+60     51            Retribution: Pursuit of Justice (1/1) — Retribution now 7
 ```
 
 **Why This Progression:**
-- Purification maintenance reduces threat loss from debuffs
-- Conviction adds critical strike capability
-- Seal of Command provides situational flexibility
-- Complete endgame build achieves 32/12/7 optimal allocation
+- Holy Power and Improved Concentration Aura finish the Holy investment
+- Deflection and Conviction add parry and critical strike
+- Seal of Command / Pursuit of Justice provide situational flexibility
+- Completes the endgame 32/12/7 allocation exactly (no points wasted)
 
 **Recommended Role:** Raid-ready Protection Paladin for all raid tiers
 
@@ -1201,18 +1274,30 @@ Level  Points  Talent Placement
 
 ---
 
-### Feral Druid (Bear): Leveling Talent Progression (Levels 1-60)
+### Feral Druid (Bear): Levelling Talent Progression (Levels 1-60)
 
 #### Level 10-20 (Dungeon Tanking Foundation)
-- **Total Talent Points Acquired by Level 20:** 11 points (1 per level from 10-20)  
-- **⚠️ CRITICAL:** No talent points available until level 10
+- **Points gained this bracket:** 11 (one per level, 10→20)
+- **Cumulative by level 20:** 11 points
+- **⚠️ CRITICAL:** No talent points available until level 10 (one point per level thereafter)
 
-**Allocation Strategy:** Core threat chain + add survivability
+**Allocation Strategy:** Core threat chain + armour survivability
 
-**Level 10:** Furor (1/1) — IMMEDIATE RAGE ON SHIFT; Growl (1/1) — EMERGENCY TAUNT  
-**Level 11-14:** Feral: Natural Reaction (1-2/3), Thick Hide (1-2/3), Mangle (1/3)  
-**Level 15-18:** Feral: Mangle (2-3/3), Primal Fury (1-2/3), Predatory Strikes (1/2)  
-**Level 19-20:** Feral: Primal Fury completion, Natural Reaction final rank
+```
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+10     1             Feral: Furor (1/1) — IMMEDIATE RAGE ON SHIFT
+11     2             Feral: Natural Reaction (1/3)
+12     3             Feral: Natural Reaction (2/3)
+13     4             Feral: Natural Reaction (3/3) — COMPLETE
+14     5             Feral: Thick Hide (1/3)
+15     6             Feral: Thick Hide (2/3)
+16     7             Feral: Thick Hide (3/3) — COMPLETE
+17     8             Feral: Mangle (1/3)
+18     9             Feral: Mangle (2/3)
+19     10            Feral: Mangle (3/3) — COMPLETE (primary threat)
+20     11            Feral: Growl (1/1) — EMERGENCY TAUNT
+```
 
 **Why This Progression:**
 - Level 10 unlock enables Furor (immediate Rage) + Growl (emergency taunt)
@@ -1225,22 +1310,32 @@ Level  Points  Talent Placement
 
 ---
 
-#### Level 21-35 (Multi-Target Management Phase)**
-- **Total Talent Points Available:** 34 points (cumulative: 34 total)
-- **Allocation Strategy:** Add multi-target threat + cooldown system
+#### Level 21-35 (Multi-Target Management Phase)
+- **Points gained this bracket:** 15 (one per level, 21→35)
+- **Cumulative by level 35:** 26 points (level − 9)
+- **Allocation Strategy:** Rage generation, add control, and Feral survivability
 
 ```
-Level  Points  Talent Placement
-────────────────────────────────────────
-21     21     Feral: Natural Reaction (3/3) — COMPLETE
-23     23     Feral: Thick Hide (3/3) — COMPLETE
-25     25     Feral: Mangle (3/3) — COMPLETE
-27     27     Feral: Primal Fury (2/3)
-29     29     Feral: Primal Fury (3/3) — COMPLETE
-31     31     Feral: Challenging Roar (1/2)
-33     33     Feral: Challenging Roar (2/2) — COMPLETE
-35     35     Feral: Predatory Strikes (2/2) — COMPLETE
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+21     12            Feral: Primal Fury (1/3)
+22     13            Feral: Primal Fury (2/3)
+23     14            Feral: Primal Fury (3/3) — COMPLETE (crit rage)
+24     15            Feral: Predatory Strikes (1/2)
+25     16            Feral: Predatory Strikes (2/2) — COMPLETE
+26     17            Feral: Challenging Roar (1/2)
+27     18            Feral: Challenging Roar (2/2) — COMPLETE (add control)
+28     19            Feral: Feral Instinct (1/2)
+29     20            Feral: Feral Instinct (2/2) — COMPLETE (threat)
+30     21            Feral: Savage Fury (1/2)
+31     22            Feral: Savage Fury (2/2) — COMPLETE (Mangle damage)
+32     23            Feral: Feline Swiftness (1/2)
+33     24            Feral: Feline Swiftness (2/2) — COMPLETE (mobility)
+34     25            Feral: Sharpened Claws (1/3)
+35     26            Feral: Sharpened Claws (2/3)
 ```
+
+**Running tree totals at level 35:** Feral 26 / Restoration 0 / Balance 0 (= 26)
 
 **Why This Progression:**
 - Complete core Feral talents first
@@ -1253,22 +1348,32 @@ Level  Points  Talent Placement
 
 ---
 
-#### Level 36-50 (Berserk Specialisation Phase)**
-- **Total Talent Points Available:** 49 points (cumulative: 49 total)
-- **Allocation Strategy:** Prepare for Berserk cooldown management + healers
+#### Level 36-50 (Berserk Specialisation Phase)
+- **Points gained this bracket:** 15 (one per level, 36→50)
+- **Cumulative by level 50:** 41 points (level − 9)
+- **Allocation Strategy:** Acquire Berserk, finish Feral to 35, open Restoration sustain
 
 ```
-Level  Points  Talent Placement
-────────────────────────────────────────
-36     36     Feral: Berserk (1/1) — PRIMARY COOLDOWN (Level 36+)
-38     38     Feral: Savage Fury (1/2)
-40     40     Feral: Savage Fury (2/2)
-42     42     Restoration: Natural Mending (1/2)
-44     44     Restoration: Natural Mending (2/2) — PASSIVE HEAL
-46     46     Feral: Improved Shred (1/2)
-48     48     Feral: Improved Shred (2/2)
-50     50     Restoration: Omen of Clarity (1/1)
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+36     27            Feral: Berserk (1/1) — PRIMARY COOLDOWN (unlocks here)
+37     28            Feral: Sharpened Claws (3/3) — COMPLETE
+38     29            Feral: Improved Shred (1/2)
+39     30            Feral: Improved Shred (2/2) — COMPLETE
+40     31            Feral: Primal Tenacity (1/2)
+41     32            Feral: Primal Tenacity (2/2) — COMPLETE (stun resist)
+42     33            Feral: Heart of the Wild (1/3)
+43     34            Feral: Heart of the Wild (2/3)
+44     35            Feral: Heart of the Wild (3/3) — COMPLETE (Feral now 35)
+45     36            Restoration: Natural Mending (1/2)
+46     37            Restoration: Natural Mending (2/2) — PASSIVE HEAL
+47     38            Restoration: Omen of Clarity (1/1)
+48     39            Restoration: Improved Rejuvenation (1/2)
+49     40            Restoration: Improved Rejuvenation (2/2)
+50     41            Restoration: Tranquil Spirit (1/2)
 ```
+
+**Running tree totals at level 50:** Feral 35 / Restoration 6 / Balance 0 (= 41)
 
 **Why This Progression:**
 - Berserk acquisition enables cooldown-dependent threat rotation
@@ -1282,25 +1387,30 @@ Level  Points  Talent Placement
 
 ---
 
-#### Level 51-59 (Endgame Survivability)**
-- **Total Talent Points Available:** 58 points (cumulative: 58 total)
-- **Allocation Strategy:** Complete survivability + endgame build
+#### Level 51-60 (Endgame Survivability)
+- **Points gained this bracket:** 10 (one per level, 51→60)
+- **Cumulative by level 60:** 51 points (the maximum)
+- **Allocation Strategy:** Finish Restoration to 8, spend Balance to 8
 
 ```
-Level  Points  Talent Placement
-────────────────────────────────────────
-51     51     Restoration: Improved Rejuvenation (1/2)
-53     53     Restoration: Improved Rejuvenation (2/2)
-55     55     Balance: Moonkin Form (1/1) — FLEXIBILITY
-57     57     Balance: Balance of Power (1/2)
-59     59     Balance: Balance of Power (2/2)
+Level  Points (cum)  Talent Placement
+──────────────────────────────────────────────
+51     42            Restoration: Tranquil Spirit (2/2) — COMPLETE
+52     43            Restoration: Improved Mark of the Wild (1/1) — Resto now 8
+53     44            Balance: Moonkin Form (1/1) — FLEXIBILITY
+54     45            Balance: Balance of Power (1/2)
+55     46            Balance: Balance of Power (2/2) — DODGE/HIT
+56     47            Balance: Starlight Wrath (1/3)
+57     48            Balance: Starlight Wrath (2/3)
+58     49            Balance: Starlight Wrath (3/3) — COMPLETE
+59     50            Balance: Lunar Guidance (1/1)
+60     51            Balance: Nature's Grace (1/1) — Balance now 8
 ```
 
 **Why This Progression:**
-- Improved Rejuvenation enhances healing synergy
-- Moonkin Form provides situational role flexibility
-- Balance of Power adds dodge/hit improvement
-- Complete endgame build achieves 35/8/8 optimal allocation
+- Restoration finishes the between-pull healing package
+- Moonkin Form and Balance of Power add a flexibility form and dodge/hit
+- Completes the endgame 35/8/8 allocation exactly (no points wasted)
 - Raid-ready for all endgame content
 
 **Recommended Role:** Raid-ready Feral Druid for all raid tiers
@@ -1309,7 +1419,7 @@ Level  Points  Talent Placement
 
 ---
 
-#### Critical Leveling Notes for Feral Druids
+#### Critical Levelling Notes for Feral Druids
 
 **Berserk Availability (Level 36+):**
 - Berserk unlocks at level 36; dramatically changes threat rotation
@@ -1379,31 +1489,40 @@ Allocation remaining points (8-10 points) in Retribution tree for:
 #### Recommended Talent Allocation Example
 
 ```
-Protection Tree: 32 points
-├─ Seal of Fury (1/1) — MANDATORY
+Protection Tree: 32 points (sums to 32)
 ├─ Righteous Fury (1/1) — MANDATORY
-├─ Swift Judgement (3/3) — MANDATORY
+├─ Seal of Fury (1/1) — MANDATORY
 ├─ Holy Shield (3/3) — MANDATORY
-├─ Iron Creed (3/3) — MANDATORY
+├─ Swift Judgement (3/3) — MANDATORY
 ├─ Improved Seal of Fury (2/2) — MANDATORY
+├─ Iron Creed (3/3) — MANDATORY
 ├─ Consecration Improvement (3/3) — MANDATORY
-├─ Protection Aura Enhancement (2/2) — MANDATORY
+├─ Protection Aura Enhancement (2/2)
 ├─ Blessed Assurance (2/2)
 ├─ Guardian's Favour (2/2)
 ├─ Toughness (1/1)
-└─ Holy Shield Internals (2/2)
+├─ Holy Shield Internals (2/2)
+├─ Redoubt (1/1)
+├─ Improved Righteous Fury (3/3)
+├─ Ardent Defender (1/1)
+└─ Sacred Duty (2/2)
+   [1+1+3+3+2+3+3+2+2+2+1+2+1+3+1+2 = 32]
 
-Holy Tree: 12 points
-├─ Holy Power (2/3)
+Holy Tree: 12 points (sums to 12)
+├─ Holy Power (3/3)
 ├─ Illumination (2/2)
 ├─ Divine Favour (1/1)
 ├─ Purification (2/2)
-└─ Holy Concentration (2/2)
+├─ Holy Concentration (2/2)
+└─ Improved Concentration Aura (2/2)
+   [3+2+1+2+2+2 = 12]
 
-Retribution Tree: 7 points
+Retribution Tree: 7 points (sums to 7)
 ├─ Deflection (2/2)
 ├─ Conviction (3/3)
-└─ Seal of Command (1/1)
+├─ Seal of Command (1/1)
+└─ Pursuit of Justice (1/1)
+   [2+3+1+1 = 7]
 ```
 
 #### Threat Rotation with Optimal Build
@@ -1498,33 +1617,40 @@ Allocation remaining points (8-10 points) in Balance tree for:
 #### Recommended Talent Allocation Example
 
 ```
-Feral Combat Tree: 35 points
-├─ Berserk (1/1) — MANDATORY
+Feral Combat Tree: 35 points (sums to 35)
 ├─ Furor (1/1) — MANDATORY
-├─ Natural Reaction (3/3) — MANDATORY
-├─ Primal Fury (3/3) — MANDATORY
-├─ Mangle (3/3) — MANDATORY
-├─ Challenging Roar (2/2) — MANDATORY
 ├─ Growl (1/1) — MANDATORY
+├─ Natural Reaction (3/3) — MANDATORY
 ├─ Thick Hide (3/3) — MANDATORY
+├─ Mangle (3/3) — MANDATORY
+├─ Primal Fury (3/3) — MANDATORY
 ├─ Predatory Strikes (2/2)
-├─ Savage Fury (2/2)
-├─ Improved Shred (2/2)
-├─ Feline Grace (1/1)
+├─ Challenging Roar (2/2) — MANDATORY
 ├─ Feral Instinct (2/2)
-└─ Primal Tenacity (1/1)
+├─ Savage Fury (2/2)
+├─ Feline Swiftness (2/2)
+├─ Sharpened Claws (3/3)
+├─ Berserk (1/1) — MANDATORY
+├─ Improved Shred (2/2)
+├─ Primal Tenacity (2/2)
+└─ Heart of the Wild (3/3)
+   [1+1+3+3+3+3+2+2+2+2+2+3+1+2+2+3 = 35]
 
-Restoration Tree: 8 points
+Restoration Tree: 8 points (sums to 8)
 ├─ Natural Mending (2/2)
 ├─ Omen of Clarity (1/1)
 ├─ Improved Rejuvenation (2/2)
-└─ Tranquil Spirit (2/2)
+├─ Tranquil Spirit (2/2)
+└─ Improved Mark of the Wild (1/1)
+   [2+1+2+2+1 = 8]
 
-Balance Tree: 8 points
+Balance Tree: 8 points (sums to 8)
 ├─ Moonkin Form (1/1)
 ├─ Balance of Power (2/2)
 ├─ Starlight Wrath (3/3)
-└─ Lunar Guidance (1/1)
+├─ Lunar Guidance (1/1)
+└─ Nature's Grace (1/1)
+   [1+2+3+1+1 = 8]
 ```
 
 #### Threat Rotation with Optimal Build
@@ -1689,6 +1815,16 @@ Balance Tree: 8 points
 
 This constraint significantly impacts PvP spec selection and strategy.
 
+### ⚠️ CRITICAL PvP MECHANIC: THREAT IS NOT A FACTOR
+
+**Threat and aggro do not exist in player-versus-player combat.** Threat only governs how NPCs (raid and dungeon enemies) choose their target; players always choose their own targets freely. Therefore:
+
+- **None of the "threat" ratings in the PvP builds below apply in actual PvP.** A tanking spec's PvP value comes entirely from **survivability, crowd control, peeling, mobility and utility** — never from threat generation.
+- Talents chosen purely to boost threat (Defiance, Consecration threat bonuses, Savage Fury, Shield Slam threat, etc.) provide **no PvP benefit** beyond whatever incidental damage they add.
+- The PvP builds below are optimised for damage mitigation, control and sustain. Where a "Threat Rating" line still appears in a PvP build, treat it as **N/A** — it is retained only for cross-reference against the PvE builds.
+
+For tanks specifically, a Protection/Feral tank in PvP is valuable as a **durable disruptor** — peeling enemies off allies, body-blocking, and landing stuns/roots — rather than as an aggro holder.
+
 ### Protection Warrior: Raid-Focused Build
 
 #### Build Name: "Threat Maximisation" (Barrow Deeps/Hyjal Summit)
@@ -1784,7 +1920,7 @@ This constraint significantly impacts PvP spec selection and strategy.
 
 **Best For:** World PvP, Battlegrounds (Warsong Gulch, Alterac Valley)
 
-**Threat Rating:** ★★★☆☆ (Offensive threat secondary) | ★★★★★ CC Resistance  
+**Threat Rating:** N/A — threat is irrelevant in PvP | **CC Resistance:** ★★★★★  
 **Survivability:** ★★★★★ (Crowd control resistance critical)
 
 **Stat Priorities:** Dodge Rating > Stamina > Parry Rating > Block Value > Armour
@@ -1893,7 +2029,7 @@ This constraint significantly impacts PvP spec selection and strategy.
 
 **Best For:** World PvP, Battlegrounds, Arena-style combat
 
-**Threat Rating:** ★★★☆☆ (CC priority over threat) | ★★★★★ Crowd Control  
+**Threat Rating:** N/A — threat is irrelevant in PvP | **Crowd Control:** ★★★★★  
 **Sustainability:** ★★★★★ (Mana regen + healing combos)
 
 **Stat Priorities:** Intellect > Stamina > Dodge > Spell Damage > Block Value
@@ -2008,7 +2144,7 @@ This constraint significantly impacts PvP spec selection and strategy.
 
 **Best For:** World PvP, Battlegrounds, extended 1v1 combat
 
-**Threat Rating:** ★★★☆☆ (Survival priority over threat) | ★★★★★ Survivability  
+**Threat Rating:** N/A — threat is irrelevant in PvP | **Survivability:** ★★★★★  
 **Mobility:** ★★★★★ (Feline Swiftness focus)
 
 **Stat Priorities:** Dodge Rating > Stamina > Armour > Intellect > Critical Strike
@@ -2019,16 +2155,18 @@ This constraint significantly impacts PvP spec selection and strategy.
 
 ## Endgame Build Comparison Summary
 
-| Build Type | Threat | Survivability | CC Resistance | Flexibility | Best Use Case |
+| Build Type | Threat (PvE only) | Survivability | CC Resistance | Flexibility | Best Use Case |
 |---|---|---|---|---|---|
 | **Warrior Raid** | ★★★★★ | ★★★★☆ | ★★☆☆☆ | ★★★★☆ | Boss tanking |
-| **Warrior PvP** | ★★★☆☆ | ★★★★★ | ★★★★☆ | ★★★★★ | Kiting/1v1 |
+| **Warrior PvP** | N/A | ★★★★★ | ★★★★☆ | ★★★★★ | Kiting/peeling |
 | **Paladin Raid (Add)** | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★★ | Multi-add management |
 | **Paladin Raid (Boss)** | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | Single-target boss |
-| **Paladin PvP** | ★★★☆☆ | ★★★★★ | ★★★★★ | ★★★★★ | CC chains |
+| **Paladin PvP** | N/A | ★★★★★ | ★★★★★ | ★★★★★ | CC chains |
 | **Druid Raid (Boss)** | ★★★★★ | ★★★★☆ | ★★☆☆☆ | ★★★☆☆ | Berserk threat |
 | **Druid Raid (Add)** | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★★☆ | Multi-add off-tank |
-| **Druid PvP** | ★★★☆☆ | ★★★★★ | ★★★★☆ | ★★★★★ | Healing/kiting |
+| **Druid PvP** | N/A | ★★★★★ | ★★★★☆ | ★★★★★ | Healing/kiting |
+
+*Threat is a PvE-only metric; it does not apply in PvP (see "Threat Is Not a Factor" above).*
 
 ---
 
@@ -2049,12 +2187,14 @@ World of Warcraft Forever presents three distinct tanking philosophies, each via
 ## Appendix: Beta Testing Limitations
 
 **Current Beta Status (17 September 2026):**
-- Level cap: 30 (will increase to 40 later in testing)
+- Level cap: 30 (raised from the initial 20; expected to reach 40 later in testing)
+- Talent points testable: only ~21 of the eventual 51 (points = level − 9, so level 30 = 21 points). **Full 51-point endgame builds cannot be tested until the level-60 launch cap.**
+- Talents gated above level 30 (e.g. Berserk at level 36) are **not yet testable** in the current beta
 - Endgame content: Not tested
 - Raid mechanics: Not yet available (launch 9 December 2026)
 - Threat meters: Not displayed (feedback from damage dealers relied upon)
-- Full talent trees: Available for testing
-- All core abilities: Available and tested
+- Talent trees: Fully visible, but only partially allocatable at the current cap
+- Core low-level abilities: Available and tested
 
 **Expected Changes Before Launch:**
 - Level cap increases to 60
@@ -2098,11 +2238,11 @@ WoW Forever features all original professions with significant enhancements:
 ⚠️ **CRITICAL CONSTRAINT:** Players can only select **TWO primary professions**. Secondary professions can all be learned alongside primary professions.
 
 **Key Features:**
-- Camping recipes provide profession-specific buffs (slightly weaker than class buffs)
+- Camping recipes provide profession-specific buffs that **mirror class buffs but are weaker and do NOT stack with the class version** (e.g. Blessing of Kings gives 10% stats; the camp version gives 8%)
 - 600+ new recipes including dungeon blueprints
-- Legacy system provides account-wide profession bonuses
+- Legacy system provides account-wide profession bonuses (a new trio of talent trees)
 - Reagent bags for dedicated storage
-- Racial bonuses (Gnome Engineering reduced backfires; Tauren Herbalism doubled yields)
+- Racial bonuses (verified): Gnome *Engineering Specialization* reduces the chance gadgets backfire; Tauren *Cultivation* lets you pick herbs without the Herbalism skill and doubles yield if you do have it
 
 ---
 
@@ -2159,17 +2299,17 @@ WoW Forever features all original professions with significant enhancements:
 
 **Herbalism (TIER 1 - Resource Independence):**
 - **PvP Benefit:** Self-sufficiency in potion ingredients
-- **Racial Synergy:** Tauren gain 2x herb yields + herbalism without skill
+- **Racial Synergy:** Tauren *Cultivation* racial — pick herbs without the Herbalism skill, and double yield when skilled
 - **Strategic Advantage:** Never dependent on other players for potions
-- **Camping Buff:** Herbalism camp provides mana/health regeneration
+- **Camping Buff:** Herbalism camp mirrors *Arcane Intellect* (intellect) — weaker than, and non-stacking with, the mage class buff
 - **Sustainability:** Enables unlimited potion crafting
 - **PvP Rating:** ★★★★★ (Enables sustainable PvP through infinite potion access)
 
 **Why This Combination:**
 - Alchemy provides combat potions for healing and stat boosts
 - Herbalism provides infinite ingredients for self-sufficiency
-- Tauren racial bonus doubles herbalism yields (extremely valuable)
-- Druids can instantly swap to Restoration spec and maintain full healing capability through potions
+- Tauren *Cultivation* racial doubles herb yields (extremely valuable)
+- Between matches (specs are locked *during* a PvP encounter) the Druid can swap to Restoration and stay self-sufficient on consumables
 - No dependency on other players for survival items
 
 ---
@@ -2205,7 +2345,7 @@ WoW Forever features all original professions with significant enhancements:
 - Warriors benefit from highest-quality weapons and shields
 - Mining provides materials without external dependency
 - Blacksmithing-crafted gear provides better stats than purchased alternatives
-- Armor increases directly boost survivability
+- Armour increases directly boost survivability
 - However, less directly useful for PvP combat than Alchemy
 
 ---
@@ -2224,13 +2364,13 @@ WoW Forever features all original professions with significant enhancements:
 - Permanent stat increases (most valuable benefit)
 - Works for all classes/specs
 - Direct armour and weapon improvements
-- Stacking enchants maximizes survivability
+- Stacking enchants maximises survivability
 
 **Herbalism** ★★★★★ (for Druids specifically)
 - Self-sufficiency in potions
-- Tauren racial bonus doubles yields
+- Tauren *Cultivation* racial doubles yields (and grants herb-picking without the skill)
 - Enables unlimited PvP capability
-- Camping buff supports healing specs
+- Camping buff mirrors Arcane Intellect (weaker, non-stacking with the class buff)
 
 #### TIER 2 (Strong Secondary):
 
@@ -2340,29 +2480,30 @@ WoW Forever features all original professions with significant enhancements:
 **Alternative: Alchemy + Enchanting**
 - Alchemy: Healing potions for extended fights
 - Enchanting: Stat increases to gear
-- Synergy: Potions + enchants maximize survivability
+- Synergy: Potions + enchants maximise survivability
 - PvP Power: ★★★★★
 
 ---
 
 ### Camping Buffs by Profession:
 
-Each profession provides a campfire buff that can be used for PvP preparation:
+Each profession provides a campfire buff (placed at a Basic Campfire). Every camp buff **mirrors an existing class buff but is weaker and does not stack** with the class version. The mappings below marked "confirmed" were named directly in the source; the rest are **not specified in available sources** and are left as placeholders:
 
-| Profession | Camping Buff Effect | Duration | PvP Benefit |
+| Profession | Camping Buff (mirrors class buff) | Source status | PvP Benefit |
 |---|---|---|---|
-| **Alchemy** | Stat increases (Str/Sta/Int/Spi) | Temporary | Pre-fight buff |
-| **Blacksmithing** | Armour + HP regeneration | Temporary | Sustained mitigation |
-| **Enchanting** | Spell damage + Physical damage | Temporary | Offensive boost |
-| **Engineering** | Various technical buffs | Temporary | Utility-dependent |
-| **Jewelcrafting** | Crit + Spell power | Temporary | Offensive boost |
-| **Leatherworking** | Armour + evasion | Temporary | Defence boost |
-| **Tailoring** | Intellect + Spirit | Temporary | Mana support |
-| **Herbalism** | Mana/HP regeneration | Temporary | Sustain buff |
-| **Mining** | Stamina + HP regeneration | Temporary | Survival buff |
-| **Cooking** | Food buffs (stamina/strength) | Temporary | Short-term boost |
-| **First Aid** | Healing + health regeneration | Temporary | Emergency healing |
-| **Fishing** | Various sustenance buffs | Temporary | Niche benefit |
+| **Alchemy** | Blessing of Wisdom (mana regen) | Confirmed | Sustain buff |
+| **Blacksmithing** | Strength of Earth Totem (strength) | Confirmed | Offensive/mitigation |
+| **Enchanting** | Mark of the Wild (stats + armour) | Confirmed | All-round boost |
+| **Fishing** | Blessing of Kings (+8% all stats vs class 10%) | Confirmed | All-round boost |
+| **Herbalism** | Arcane Intellect (intellect) | Confirmed | Mana support |
+| **Mining** | Blessing of Might (attack power) | Confirmed | Offensive boost |
+| **Skinning** | Moonkin Aura (crit) | Confirmed | Offensive boost |
+| **Tailoring** | Divine Spirit (spirit) | Confirmed | Mana support |
+| **Engineering** | Not specified in sources | Unconfirmed | Utility-dependent |
+| **Jewelcrafting** | Not specified in sources | Unconfirmed | Unknown |
+| **Leatherworking** | Not specified in sources | Unconfirmed | Unknown |
+| **Cooking** | Not specified in sources | Unconfirmed | Unknown |
+| **First Aid** | Not specified in sources | Unconfirmed | Unknown |
 
 ---
 
@@ -2392,13 +2533,19 @@ Each profession provides a campfire buff that can be used for PvP preparation:
 
 ### Legacy System Profession Bonuses:
 
-The Legacy system provides account-wide profession perks:
+The Legacy system is an **account-wide profession talent tree** — points earned through profession activity unlock passive perks shared across all characters on the account. Confirmed talent names from available sources include:
 
-- **Professions Perk:** Increased crafting efficiency
-- **Bountiful Harvest:** Gatherers receive 20-100% more scarce materials
-- **Resourcefulness:** Reduced material costs for crafting
+- **Bartering** — improved vendor pricing
+- **Bountiful Harvest** — gatherers receive more scarce materials
+- **Dedicated Study** — faster profession skill-ups
+- **Luremaster** — fishing-related bonus
+- **Master Chef** — cooking-related bonus
+- **Performance Bonus** — activity-based reward bonus
+- **Working Overtime** — extended/repeatable gathering or crafting benefit
 
-These bonuses stack to make professions increasingly valuable throughout gameplay.
+> ⚠️ **Verification caveat:** The exact numeric effects of each Legacy talent are **not confirmed in available sources**, and the tree contains additional talents beyond those listed above. Treat the named talents as real but their precise values as unverified.
+
+These account-wide perks make professions increasingly valuable across the whole account rather than a single character.
 
 ---
 
