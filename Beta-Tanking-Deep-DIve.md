@@ -1677,7 +1677,7 @@ Balance Tree: 8 points
 
 ---
 
-## Specialized Endgame Builds
+## Specialised Endgame Builds
 
 ### ⚠️ CRITICAL SPEC CONSTRAINT FOR PvP
 
